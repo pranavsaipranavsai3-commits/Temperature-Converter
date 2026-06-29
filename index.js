@@ -17,7 +17,7 @@ submit.onclick= function(){
             res=num*9/5+32;
         } 
         else if (fToC.checked) {
-            res=num*5/9-32;
+            res=5/9*(num-32);
         } else {
             res=0;
             window.alert("Please SELECT Type of Conversion");
